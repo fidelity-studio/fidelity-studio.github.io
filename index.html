@@ -181,7 +181,7 @@
 								<div class="container">
   									<section class="section" id="section-3">
      									 <div id="map" style="width: 100%; height: 480px; margin:auto"></div>
-     									 <code id="snippet" class="snippet"></code>
+     									 <!--code id="snippet" class="snippet"></code-->
   									</section>
 								</div>
 								<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=230jrqii8d"></script>
@@ -199,10 +199,17 @@
     								        map: map
     								    });
 									var $window = $(window);
-									
+
+									function getMapSize() {
+ 									   var size = new naver.maps.Size($window.width() - 15, $window.height() - 15);
+
+									    return size;
+									};
+
 									$window.on('resize', function() {
-									map.setSize(getMapSize());
-								</script>
+									    map.setSize(getMapSize());
+									});
+								</script>	
 								<body style="text-align:center">
 								<h4>경기 안산시 단원구 이삭5길2 (태양빌딩 4층)<br>
 									<a href="https://naver.me/5yqUy6Hz" target="_blank">네이버지도</a> / <a href="http://kko.to/ZoBi_HghW0" target="_blank">카카오맵</a></h4>
