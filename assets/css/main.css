@@ -1661,9 +1661,3 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
-#counter              { font:0.65em Verdana, Helvetica, Arial, Gulim, sans-serif; padding: 6px 6px;  margin-top: 20px; border: 1px solid #dedede; background-color: #eee; color: #999; line-height: 1.5; }
-#counter dl, #counter dt, #counter dd { padding: 0; margin: 0; }
-#counter dt { float: left; width: 295px; }
-#counter dd.total { font-weight: bold; color: #333; }
-#counter{border-radius: 10px;}
