@@ -232,9 +232,28 @@
 											<label for="mobile">전화번호</label>
 											<input type="text" name="entry.2050798415" required placeholder="010-0000-0000" maxLegnth="11"/>
 										</div>
+										<div class="field half">
+											<label for="part">파트</label>
+											<select name="entry.61775469" required>
+												<option>보컬</option>
+												<option>피아노</option>
+												<option>기타</option>
+												<option>베이스</option>
+												<option>MIDI</option>
+												<option>그 외 악기</option>
+											</select>
+										</div>
+										<div class="field half">
+											<label for="for">용도</label>
+											<select name="entry.57318733" required>
+												<option>취미</option>
+												<option>입시</option>
+												<option>전문(전공)</option>
+											</select>
+										</div>
 										<div class="field">
 											<label for="message">문의내용</label>
-											<textarea name="entry.2110916265" rows="4" required placeholder="문의사항을 적어주세요.&#13;&#10;신속히 답변 드리겠습니다 :)"></textarea>
+											<textarea name="entry.2110916265" rows="4" required placeholder="시설 이용을 희망하시면 문의를 남겨주세요.&#13;&#10;신속히 답변 드리겠습니다 :)"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
@@ -249,7 +268,11 @@
 								<script>
 								function myFunction() {
 								  alert("문의가 접수되었습니다 :)"); 
+								  $('form').each(function(){
+    this.reset();
+  });
 								}
+									
 								</script>
 
 								<h5>아래 채널로도 문의가 가능합니다<br>
