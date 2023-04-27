@@ -219,7 +219,6 @@
 
 
 							
-
 							<article id="contact">
 								<h2 class="major">문의하기</h2>
 								<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSegHac2nii7TFRyAZYNNS0CPxPrSH4vP-v8PSbVraEQUsGHgw/formResponse" target="resultframe" method="POST" autocomplete="off" onsubmit="myFunction()">
@@ -233,7 +232,7 @@
 											<input type="text" name="entry.2050798415" required placeholder="010-0000-0000" maxLegnth="11"/>
 										</div>
 										<div class="field half">
-											<label for="part">파트</label>
+
 											<select name="entry.61775469" required>
 												<option>보컬</option>
 												<option>피아노</option>
@@ -244,7 +243,7 @@
 											</select>
 										</div>
 										<div class="field half">
-											<label for="for">용도</label>
+
 											<select name="entry.57318733" required>
 												<option>취미</option>
 												<option>입시</option>
@@ -268,10 +267,8 @@
 								<script>
 								function myFunction() {
 								  alert("문의가 접수되었습니다 :)"); 
-									document.form.reset();
-								  
+									parent.document.location.reload();
 								}
-									
 								</script>
 
 								<h5>아래 채널로도 문의가 가능합니다<br>
