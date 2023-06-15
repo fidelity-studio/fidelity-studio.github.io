@@ -1,1 +1,1 @@
-# studioblank.github.io
+# fidelity-studio.github.io
