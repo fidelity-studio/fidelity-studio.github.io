@@ -30,8 +30,7 @@
 
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-
+	<body class="is-preload" oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
 		<script src="libs/jquery/jquery.js"></script>
 			<script src="src/jquery.backstretch.js"></script>
 		<script>
@@ -48,6 +47,10 @@
 					});
 			</script>
 
+		<script type="text/javascript">
+	document.oncontextmenu = function(){return false;}
+</script>
+		
 		<!-- Wrapper -->
 			<div id="wrapper">
 
