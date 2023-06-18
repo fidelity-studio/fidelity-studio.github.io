@@ -14,7 +14,7 @@
 		  <meta property="og:image" content="images/meta.png">
 		  <meta property="og:title" content="FIDELITY STUDIO">
 		  <meta property="og:description" content="24H OPEN MUSIC STUDIO">
-		  <meta property="og:url" content="FDLT.github.io">
+		  <meta property="og:url" content="fidelity-studio.github.io">
 		  <meta property="og:type" content="website">
 		<link rel="stylesheet" href="assets/css/main.css" />
    		<script src="https://kit.fontawesome.com/372a0bb7f0.js" crossorigin="anonymous"></script>
@@ -31,6 +31,22 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+
+		<script src="libs/jquery/jquery.js"></script>
+			<script src="src/jquery.backstretch.js"></script>
+		<script>
+					$.backstretch([
+						"images/room2.jpg",
+						"images/room5.jpg",
+						"images/room3.jpg",
+						"images/room6.jpg",
+						"images/balcony.jpg"
+					], {
+							duration: 4000,
+							transition: 'fade',
+							transitionDuration: 1000
+					});
+			</script>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -91,27 +107,27 @@
 								<h2 class="major">공실현황</h2>
 								<span class="image main"><img src="images/room_all.png" alt=""/></span>
 								<p>
-								
+
 								<ul class="icons">
-									
+
 									<!--li><a href="#room1" class="fa-solid fa-6 fa-bounce" style="color: #ffffff;"><span class="label"></span></a></li-->
-									
+
 									<li><!--a href="#room1"--><a class="fa-solid fa-1" style="color: #757575;"><span class="label"></span></a></li>
-									
+
 									<li><a href="#room2" class="fa-solid fa-2 fa-bounce" style="color: #ffffff;"><span class="label"></span></a></li>
-									
+
 									<li><!--a href="#room3"--><a class="fa-solid fa-3" style="color: #757575;"><span class="label"></span></a></li>
-									
+
 									<li><!--a href="#room4"--><a class="fa-solid fa-4" style="color: #757575;"><span class="label"></span></a></li>
-									
+
 									<li><a href="#room5" class="fa-solid fa-5 fa-bounce" style="color: #ffffff;"><span class="label"></span></a></li>
-									
+
 									<li><a href="#room6" class="fa-solid fa-6 fa-bounce" style="color: #ffffff;"><span class="label"></span></a></li>
 								</ul>
 								<h4>번호를 클릭하면 사진으로 이동합니다</h4>
 								</p>
 							</article>
-								
+
 								<!-- Room 1 to 6 -->
 
 								<!--article id="room1">
@@ -161,7 +177,7 @@
 										<p style="text-align:left">
 										WOOD & BEIGE <br>
 										-채광을 위한 고정창이 있는 방입니다.
-										</p> 
+										</p>
 								</article>
 
 								<article id="room6">
@@ -211,7 +227,7 @@
 									$window.on('resize', function() {
 									    map.setSize(getMapSize());
 									});
-								</script>	
+								</script>
 								<body style="text-align:center">
 								<h4>경기 안산시 단원구 이삭5길2 (태양빌딩 4층)<br>
 									<a href="https://naver.me/5yqUy6Hz" target="_blank">네이버지도</a> / <a href="http://kko.to/ZoBi_HghW0" target="_blank">카카오맵</a></h4>
@@ -222,7 +238,7 @@
 
 
 
-							
+
 							<!--article id="contact">
 								<h2 class="major">문의하기</h2>
 								<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSegHac2nii7TFRyAZYNNS0CPxPrSH4vP-v8PSbVraEQUsGHgw/formResponse" target="resultframe" method="POST" autocomplete="off" onsubmit="myFunction()">
@@ -260,21 +276,21 @@
 									<ul class="actions">
 										<li><input type="submit" value="전송하기" class="primary" /></li>
 									</ul>
-									
+
 								</form>
-								
+
 
 
 								<script>
 								function myFunction() {
-								  alert("문의가 접수되었습니다 :)"); 
-	
+								  alert("문의가 접수되었습니다 :)");
+
 								}
 								</script>
 
 								<h5>아래 채널로도 문의가 가능합니다<br>
 									KAKAOTALK
-								
+
 								</h5>
 								<ul class="icons">
 									<li><a href="#kakaotalk" class="fa-solid fa-comment fa-l"><span class="label"></span></a></li>
@@ -293,20 +309,20 @@
 								</a>
 								<h4>QR Code를 스캔하거나 클릭하면 연결됩니다.</h4>
 							</article>
-				
-							<!-- ETC --> 
-				
+
+							<!-- ETC -->
+
 								<article id="count">
 								<a><img src="https://www.cutercounter.com/hits.php?id=hrvxnxxpa&nd=7&style=3" border="0" alt=""></a>
 								</article>
-				
+
 								<article id="seoularts">
 								<div class="whattime-inline-widget" data-code="b1VVGomsw7" style="min-width: 320px; height: 660px;"></div>
 								<link href="https://whattime.co.kr/widget/widget.css" rel="stylesheet">
 								<script src="https://whattime.co.kr/widget/widget.js" type="text/javascript" async></script>
 								</article>
-				
-				
+
+
 
 						<!-- Elements -->
 							<article id="elements">
@@ -569,7 +585,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-		
+
 
 	</body>
 </html>
