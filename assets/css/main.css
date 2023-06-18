@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-	overflow: hidden;
 	height: 100%;
 }
 
@@ -1106,7 +1105,7 @@ input, select, textarea {
 		line-height: calc(2.75rem - 2px);
 	}
 
- BG
+ /*BG
 
 	#bg {
 		-moz-transform: scale(1.0);
